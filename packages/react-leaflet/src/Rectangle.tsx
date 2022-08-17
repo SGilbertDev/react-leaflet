@@ -8,7 +8,7 @@ import {
   type LatLngBoundsExpression,
   Rectangle as LeafletRectangle,
   type PathOptions,
-} from 'leaflet'
+} from '@zelty/leaflet'
 import type { ReactNode } from 'react'
 
 export interface RectangleProps extends PathOptions, PathProps {

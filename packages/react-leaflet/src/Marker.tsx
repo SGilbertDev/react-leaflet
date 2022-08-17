@@ -8,7 +8,7 @@ import {
   type LatLngExpression,
   Marker as LeafletMarker,
   type MarkerOptions,
-} from 'leaflet'
+} from '@zelty/leaflet'
 import type { ReactNode } from 'react'
 
 export interface MarkerProps extends MarkerOptions, EventedProps {

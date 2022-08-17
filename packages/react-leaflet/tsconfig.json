@@ -1,7 +1,10 @@
 {
   "extends": "../../tsconfig.build.json",
   "compilerOptions": {
-    "outDir": "./lib"
+    "outDir": "./lib",
+    "paths": {
+      "@zelty/leaflet": ["./node_modules/@types/leaflet"]
+    }
   },
   "include": ["./src/**/*"]
 }

@@ -11,7 +11,7 @@ import {
   Popup as LeafletPopup,
   type PopupEvent,
   type PopupOptions,
-} from 'leaflet'
+} from '@zelty/leaflet'
 import { type ReactNode, useEffect } from 'react'
 
 export interface PopupProps extends PopupOptions, EventedProps {

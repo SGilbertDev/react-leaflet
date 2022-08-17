@@ -1,5 +1,5 @@
 import { createControlComponent } from '@react-leaflet/core'
-import { Control } from 'leaflet'
+import { Control } from '@zelty/leaflet'
 
 export type ScaleControlProps = Control.ScaleOptions
 

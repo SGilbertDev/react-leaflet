@@ -8,7 +8,7 @@ import {
   type LatLngExpression,
   type PolylineOptions,
   Polygon as LeafletPolygon,
-} from 'leaflet'
+} from '@zelty/leaflet'
 import type { ReactNode } from 'react'
 
 export interface PolygonProps extends PolylineOptions, PathProps {

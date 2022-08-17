@@ -5,7 +5,7 @@ import {
   createLayerHook,
   updateMediaOverlay,
 } from '@react-leaflet/core'
-import { SVGOverlay as LeafletSVGOverlay } from 'leaflet'
+import { SVGOverlay as LeafletSVGOverlay } from '@zelty/leaflet'
 import {
   type ReactNode,
   type Ref,

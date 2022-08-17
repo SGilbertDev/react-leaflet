@@ -5,7 +5,7 @@ import {
   extendContext,
   updateMediaOverlay,
 } from '@react-leaflet/core'
-import { ImageOverlay as LeafletImageOverlay } from 'leaflet'
+import { ImageOverlay as LeafletImageOverlay } from '@zelty/leaflet'
 import type { ReactNode } from 'react'
 
 export interface ImageOverlayProps extends MediaOverlayProps {

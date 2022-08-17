@@ -5,7 +5,7 @@ import {
   extendContext,
   updateCircle,
 } from '@react-leaflet/core'
-import { CircleMarker as LeafletCircleMarker } from 'leaflet'
+import { CircleMarker as LeafletCircleMarker } from '@zelty/leaflet'
 
 export type { CircleMarkerProps } from '@react-leaflet/core'
 

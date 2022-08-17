@@ -11,7 +11,7 @@ import {
   Tooltip as LeafletTooltip,
   type TooltipEvent,
   type TooltipOptions,
-} from 'leaflet'
+} from '@zelty/leaflet'
 import { type ReactNode, useEffect } from 'react'
 
 export interface TooltipProps extends TooltipOptions, EventedProps {

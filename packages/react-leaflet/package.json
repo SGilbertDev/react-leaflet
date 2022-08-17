@@ -1,5 +1,5 @@
 {
-  "name": "react-leaflet",
+  "name": "@zelty/react-leaflet",
   "version": "4.0.1",
   "description": "React components for Leaflet maps",
   "repository": {
@@ -42,7 +42,8 @@
     "prepublishOnly": "package-check"
   },
   "dependencies": {
-    "@react-leaflet/core": "^2.0.0"
+    "@react-leaflet/core": "^2.0.0",
+    "@zelty/leaflet": "^1.8.1"
   },
   "peerDependencies": {
     "leaflet": "^1.8.0",
